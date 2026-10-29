@@ -4,7 +4,7 @@
 const tasksData = [
     // --- التاسك 1 (السطر 6 إلى 11) ---
 {
-        folder: "Pro 1",
+        folder: "pro1",
         files: ["index.html", "index1.HTML", "index2.HTML"],
         title: "HTML5 Fundamentals (3 Sub-Tasks)",
         category: "HTML5 Core",
@@ -12,42 +12,42 @@ const tasksData = [
     },
 // --- التاسك 2 (السطر 13 إلى 18) ---
     {
-        folder: "Pro 2",
+        folder: "pro2",
         title: "External CSS Linking & Typography Styling",
         category: "HTML & CSS Basics",
         description: "Foundational exercise demonstrating how to link an external CSS stylesheet to an HTML document and apply basic text color rules."
     },
 // --- التاسك 3 (السطر 20 إلى 25) ---
     {
-        folder: "Pro 3",
+        folder: "pro3",
         title: "Flexbox Centering & Background Images",
         category: "CSS Layout",
         description: "Task focusing on CSS Flexbox for perfect vertical and horizontal centering, alongside background image sizing and repeating properties."
     },
 // --- التاسك 4 (السطر 27 إلى السطر 32) ---
     {
-        folder: "Pro 4",
+        folder: "pro4",
         title: "Responsive Hero Section & CSS Overlays",
         category: "UI Design & Responsive",
         description: "A high-quality landing page header featuring a full-screen background image with a transparent overlay, flexbox navigation, hover animations, and mobile-responsive media queries."
     },
 // --- التاسك 5 (السطر 34 إلى 39) ---
     {
-        folder: "Pro 5",
+        folder: "pro5",
         title: "Google Search Page Clone",
         category: "UI Clone & Flexbox",
         description: "A precise UI clone of the Google homepage. Highlights include CSS Flexbox centering, customized search bar styling with focus shadows, and button hover effects."
     },
 // --- التاسك 6 (السطر 41 إلى 46) ---
     {
-        folder: "Pro 6",
+        folder: "pro6",
         title: "Ramadan Landing Page (Flexbox Split)",
         category: "Flexbox & Layout",
         description: "A clean landing page demonstrating Flexbox alignment. Features a split-screen layout with structured typography, a navigation bar, styling interactive elements, and responsive image scaling."
     },
 // --- التاسك 7 (السطر 48 إلى 53) ---
     {
-        folder: "Pro 7",
+        folder: "pro7",
         title: "Meet Our Team (Responsive CSS Grid)",
         category: "CSS Grid & UI Cards",
         description: "Responsive team showcase section built using CSS Grid. Features avatar profiling, hover animations, interactive follow buttons, and mobile-friendly breakpoints."
@@ -55,21 +55,21 @@ const tasksData = [
     // --- التاسك 8 (السطر 55 إلى 60) ---
 // --- التاسك 8 (السطر 55 إلى 60) ---
     {
-        folder: "Pro 8",
+        folder: "pro8",
         title: "Country Flags Drawing (Pure CSS)",
         category: "CSS Artwork & Layout",
         description: "Creative pure-CSS flag designs (Syria, France, Belgium, Italy) using CSS Grid layout, Flexbox direction alignments, and CSS root variables."
     },
 // --- التاسك 9 (السطر 62 إلى 67) ---
     {
-        folder: "Pro 9",
+        folder: "pro9",
         title: "Responsive Grid & Bootstrap 5 Setup",
         category: "Bootstrap 5",
         description: "Introduction to Bootstrap 5 responsive grid layout (containers, rows, and columns) with custom CSS class overrides and breakpoint testing."
     },
 // --- التاسك 10 (السطر 69 إلى 74) ---
     {
-        folder: "Pro 10",
+        folder: "pro10",
         title: "Contact Us Page & Interactive Form",
         category: "UI Design & Forms",
         description: "A stylish Contact Us section integrating FontAwesome icons, split contact details, a custom-bordered form card, and smooth hover interactions."
@@ -77,7 +77,7 @@ const tasksData = [
     // --- التاسك 11 (السطر 76 إلى 81) ---
 // --- التاسك 11 (السطر 76 إلى 81) ---
     {
-        folder: "Pro 11",
+        folder: "pro11",
         files: ["index.html", "index1.html", "index2.html", "index3.html"],
         title: "JavaScript DOM Manipulation & Events",
         category: "JavaScript Basics",
@@ -85,21 +85,21 @@ const tasksData = [
     },
 // --- التاسك 12 (السطر 83 إلى 88) ---
     {
-        folder: "Pro 12",
+        folder: "pro12",
         title: "Interactive Math & DOM Controller App",
         category: "JavaScript Logic",
         description: "An interactive utility application performing dynamic math operations (sum, multiplication, modulus, random numbers) alongside DOM class and color toggling."
     },
 // --- التاسك 13 (السطر 90 إلى 95) ---
     {
-        folder: "Pro 13",
+        folder: "pro13",
         title: "Klassy Cafe - Full Responsive Restaurant Template",
         category: "Complete Landing Page",
         description: "A comprehensive restaurant landing page featuring responsive navigation with a mobile hamburger toggle, hero showcase, chefs presentation grid, and an interactive table reservation form with validation."
     },
 // --- التاسك 14 (السطر 97 إلى 102) ---
     {
-        folder: "Pro 14",
+        folder: "pro14",
         title: "Advanced JavaScript Problem Solving & Algorithms",
         category: "JavaScript Algorithms",
         description: "A collection of algorithmic challenges solved in JavaScript, covering football points calculations, array cube summations, Fibonacci sequences, binary-to-integer conversion, string manipulation, and number filtering."

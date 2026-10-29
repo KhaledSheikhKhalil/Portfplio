@@ -114,13 +114,13 @@ const tasksTrack = document.getElementById("tasksTrack");
 function renderTasks() {
     tasksTrack.innerHTML = tasksData.map((task) => {
         const mainFile = task.files ? task.files[0] : "index.html";
-        const projectUrl = encodeURI(`Front End/${task.folder}/${mainFile}`);
+        const projectUrl = encodeURI(`Front_End/${task.folder}/${mainFile}`);
 
         // إذا كان التاسك فيه أكثر من ملف، بيعمل أزرار صغيرة للتبديل بينهم بالمعاينة والفتح
         const subFilesButtons = task.files ? `
             <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px;">
                 ${task.files.map((file, idx) => `
-                    <span class="sub-file-btn" data-file-url="${encodeURI(`Front End/${task.folder}/${file}`)}" 
+                    <span class="sub-file-btn" data-file-url="${encodeURI(`Front_End/${task.folder}/${file}`)}" 
                           style="font-size:0.72rem; padding:3px 8px; border-radius:6px; border:1px solid var(--accent-orange); background:${idx === 0 ? 'var(--accent-orange)' : 'transparent'}; color:${idx === 0 ? '#fff' : 'var(--accent-orange)'}; cursor:pointer;">
                         Page ${idx + 1}
                     </span>
@@ -132,7 +132,7 @@ function renderTasks() {
             <a href="${projectUrl}" target="_blank" class="task-slide" data-url="${projectUrl}">
                 <div class="task-preview-box">
                     <div class="preview-browser-bar">
-                        <span class="bar-path">Front End / ${task.folder}</span>
+                        <span class="bar-path">Front_End / ${task.folder}</span>
                         <span>Live Preview</span>
                     </div>
                     <div class="task-placeholder-cover">

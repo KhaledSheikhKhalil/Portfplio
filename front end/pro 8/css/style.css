@@ -1,0 +1,110 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ff0000;
+  --green: #008000;
+  --blue: #0000ff;
+  --yellow: #ffff00;
+  
+  --bg: #ededed;
+  --border: #a0a0a0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  direction: ltr;
+}
+
+.flag-box {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.flag-box:nth-child(1) {
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.flag-box:nth-child(2) {
+  border-bottom: 1px solid var(--border);
+}
+.flag-box:nth-child(3) {
+  border-right: 1px solid var(--border);
+}
+
+.flag {
+  width: 280px;
+  height: 160px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  background-color: var(--white);
+  direction: ltr;
+}
+
+.flag-vertical {
+  flex-direction: row;
+}
+
+.flag-horizontal {
+  flex-direction: column;
+}
+.flag div{
+    flex: 1;
+}
+
+.flag-france div:nth-child(1) { background: var(--red); }
+.flag-france div:nth-child(2) { background: var(--white); }
+.flag-france div:nth-child(3) { background: var(--blue); }
+
+.flag-belgium div:nth-child(1) { background: var(--black); }
+.flag-belgium div:nth-child(2) { background: var(--yellow); }
+.flag-belgium div:nth-child(3) { background: var(--red); }
+
+.flag-italy div:nth-child(1){ background: var(--green); }
+.flag-italy div:nth-child(2){ background: var(--white); }
+.flag-italy div:nth-child(3){ background: var(--red); }
+
+.flag-syria div:nth-child(1){ background: var(--green); }
+.flag-syria div:nth-child(2){ 
+  background-color: var(--white); 
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+.flag-syria div:nth-child(3) { background: var(--black); }
+
+.star {
+  color: var(--red);
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+
+  .flag-box {
+    border-right: none !important;
+    border-bottom: 1px solid var(--border) !important;
+    padding: 40px 20px;
+  }
+  
+  .flag-box:last-child {
+    border-bottom: none !important;
+  }
+}

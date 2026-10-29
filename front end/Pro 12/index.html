@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق الأزرار التفاعلية</title>
+    <!-- ربط ملف التنسيق CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        
+        <!-- العمود الأيمن -->
+        <div class="column">
+            <div class="btn-group">
+                <button id="btn-rand-10">رقم عشوائي (1 - 10)</button>
+                <p id="res-rand-10" class="result">النتيجة: -</p>
+            </div>
+
+            <div class="btn-group">
+                <button id="btn-sum">مجموع العددين السابقين</button>
+                <p id="res-sum" class="result">النتيجة: -</p>
+            </div>
+
+            <div class="btn-group">
+                <button id="btn-mul">ضرب العددين</button>
+                <p id="res-mul" class="result">النتيجة: -</p>
+            </div>
+
+            <div class="btn-group">
+                <button id="btn-mod">باقي قسمة العددين</button>
+                <p id="res-mod" class="result">النتيجة: -</p>
+            </div>
+        </div>
+
+        <!-- العمود الأيسر -->
+        <div class="column">
+            <div class="btn-group">
+                <button id="btn-add-nums">إضافة أرقام (1 إلى 10)</button>
+                <p id="res-add-nums" class="result">الأرقام: -</p>
+            </div>
+
+            <div class="btn-group">
+                <button id="btn-toggle-color" class="yellow-bg">تبديل اللون (أصفر / أزرق)</button>
+                <p id="res-toggle-color" class="result">اللون الحالي: أصفر</p>
+            </div>
+
+            <div class="btn-group">
+                <button id="btn-show-color">إظهار اللون الحالي (Alert)</button>
+                <p id="res-show-color" class="result">النتيجة: -</p>
+            </div>
+
+            <div class="btn-group">
+                <button id="btn-rand-free">عرض رقم عشوائي</button>
+                <p id="res-rand-free" class="result">النتيجة: -</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ربط ملف الجافاسكريبت في نهاية الصفحة -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

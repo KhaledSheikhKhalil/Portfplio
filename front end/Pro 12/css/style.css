@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* الصندوق الرئيسي الذي يجمع العمودين */
+.main-container {
+    background-color: #ffffff;
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق كل عمود */
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 240px;
+}
+
+/* مجموعة الزر مع النتيجة تحته */
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #e9ecef;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* تنسيق النتيجة تحت كل زر */
+.result {
+    margin: 8px 0 0 0;
+    font-size: 15px;
+    color: #c92a2a;
+    font-weight: bold;
+    text-align: center;
+    min-height: 22px;
+}
+
+/* كلاسات الألوان للزر الثاني في اليسار */
+.yellow-bg {
+    background-color: #ffd43b;
+    color: #000;
+}
+
+.blue-bg {
+    background-color: #339af0;
+    color: #fff;
+}
